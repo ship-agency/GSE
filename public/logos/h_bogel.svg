@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 160" fill="none" aria-label="H. BÖGEL Logo">
+  <!-- Crest Circle -->
+  <circle cx="110" cy="48" r="38" stroke="#0e3b64" stroke-width="2.5" />
+  <circle cx="110" cy="48" r="35" stroke="#0e3b64" stroke-width="0.8" stroke-dasharray="2 2" opacity="0.6" />
+
+  <!-- Hanseatic 8-point Stars -->
+  <g transform="translate(90, 26) scale(0.65)">
+    <polygon points="0,-7 2,-2 7,-2 3,1 5,6 0,3 -5,6 -3,1 -7,-2 -2,-2" fill="#0e3b64" />
+  </g>
+  <g transform="translate(130, 26) scale(0.65)">
+    <polygon points="0,-7 2,-2 7,-2 3,1 5,6 0,3 -5,6 -3,1 -7,-2 -2,-2" fill="#0e3b64" />
+  </g>
+
+  <!-- Monogram H & B (Crisp, High-Precision Vector Geometry) -->
+  <!-- Letter H -->
+  <rect x="88" y="34" width="7" height="30" fill="#0e3b64" rx="0.5" />
+  <rect x="125" y="34" width="7" height="30" fill="#0e3b64" rx="0.5" />
+  <rect x="88" y="46" width="44" height="6" fill="#0e3b64" />
+
+  <!-- Letter B Intertwined with crisp white knockout -->
+  <path d="M 104 32 L 104 64 M 104 32 C 117 32, 122 38, 117 48 C 112 48, 104 48, 104 48 M 104 48 C 121 48, 125 55, 119 64 C 114 64, 104 64, 104 64" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M 104 32 L 104 64 M 104 32 C 117 32, 122 38, 117 48 C 112 48, 104 48, 104 48 M 104 48 C 121 48, 125 55, 119 64 C 114 64, 104 64, 104 64" fill="none" stroke="#0e3b64" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+
+  <!-- Primary Wordmark H. BÖGEL -->
+  <text x="110" y="118" fill="#0e3b64" font-family="'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif" font-size="26" font-weight="800" text-anchor="middle" letter-spacing="2.5">H. BÖGEL</text>
+
+  <!-- Subtitle SEIT 1887 -->
+  <text x="110" y="142" fill="#335c80" font-family="'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif" font-size="12" font-weight="700" text-anchor="middle" letter-spacing="2.5">SEIT 1887</text>
+</svg>

@@ -1,0 +1,8 @@
+{
+  "name": "Remix PT Gemilang Segara Emas - Ship Agency Indonesia",
+  "description": "Premier General Agent delivering integrated ship agency and port husbandry services across Indonesia\u0027s key maritime gateways.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

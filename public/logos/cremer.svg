@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 65" fill="none" aria-label="CREMER Logo">
+  <!-- CREMER Stepped Triangle Emblem -->
+  <g transform="translate(4, 8)">
+    <!-- Left diagonal beam -->
+    <polygon points="26,2 32,2 8,44 2,44" fill="#127194" />
+    <!-- Horizontal bars connecting to right -->
+    <!-- Bar 1 -->
+    <polygon points="19,16 35,16 33,21 16,21" fill="#127194" />
+    <!-- Bar 2 -->
+    <polygon points="15,24 45,24 43,29 12,29" fill="#127194" />
+    <!-- Bar 3 -->
+    <polygon points="10,32 55,32 53,37 7,37" fill="#127194" />
+    <!-- Bar 4 (base) -->
+    <polygon points="5,40 65,40 63,45 2,45" fill="#127194" />
+  </g>
+
+  <!-- Typography: CREMER -->
+  <text x="78" y="37" fill="#22323f" font-family="'Plus Jakarta Sans', 'Inter', -apple-system, sans-serif" font-size="30" font-weight="800" letter-spacing="1.5">CREMER</text>
+
+  <!-- Typography: The world is our market. -->
+  <text x="79" y="56" fill="#546574" font-family="'Plus Jakarta Sans', 'Inter', -apple-system, sans-serif" font-size="14.5" font-weight="400" letter-spacing="0.2">The world is our market.</text>
+</svg>
