@@ -63,17 +63,23 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenPDA }) => {
           >
             <GSELogo size="md" variant="light" showTagline={true} className="h-11 sm:h-13" />
             <div className="hidden sm:flex flex-col pl-3.5 border-l border-stone-200 justify-center">
-              <span className="text-base sm:text-lg font-black tracking-tight text-stone-900 group-hover:text-amber-800 transition-colors whitespace-nowrap">
-                PT GEMILANG SEGARA EMAS
+              <span className="text-[20px] sm:text-[22.5px] font-black tracking-tight text-stone-900 group-hover:text-amber-800 transition-colors whitespace-nowrap leading-tight">
+                PT GEMILANG SEGARA EMAS (GSE)
               </span>
-              <span className="text-xs sm:text-sm font-bold tracking-wider text-stone-500 uppercase">
-                {t('nav.subTagline')}
+              <span className="inline-flex items-center gap-1.5 mt-0.5 px-2.5 py-0.5 rounded-full bg-gradient-to-r from-amber-500/15 via-amber-400/25 to-yellow-500/20 border border-amber-500/40 shadow-xs text-amber-950 text-[10px] sm:text-[11px] font-black tracking-wider uppercase group-hover:from-amber-500/25 group-hover:to-yellow-500/30 group-hover:border-amber-500 transition-all duration-300 w-fit">
+                <span className="relative flex h-2 w-2 shrink-0">
+                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                  <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+                </span>
+                <span className="bg-gradient-to-r from-amber-950 via-amber-900 to-amber-950 bg-clip-text text-transparent font-black tracking-wide">
+                  {t('nav.subTagline')}
+                </span>
               </span>
             </div>
           </a>
 
-          {/* Desktop Nav Links - Minimalist with bigger font & lighter colors */}
-          <nav className="hidden md:flex items-center gap-1.5 p-1.5 rounded-2xl bg-stone-50 border border-stone-200/80">
+          {/* Desktop Nav Links - Compact with cursor highlight */}
+          <nav className="hidden md:flex items-center gap-1 p-1 rounded-xl bg-stone-100/90 border border-stone-200/90 shadow-2xs">
             {navLinks.map((link) => {
               const sectionId = link.href.replace('#', '');
               const isActive = activeSection === sectionId;
@@ -81,10 +87,10 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenPDA }) => {
                 <a
                   key={link.name}
                   href={link.href}
-                  className={`px-3.5 py-2 rounded-xl text-base lg:text-lg font-medium transition-all duration-150 whitespace-nowrap ${
+                  className={`px-2.5 lg:px-3 py-1.5 rounded-lg text-xs lg:text-sm font-semibold tracking-wide transition-all duration-200 whitespace-nowrap cursor-pointer ${
                     isActive
-                      ? 'bg-white text-stone-950 font-bold shadow-xs border border-stone-200'
-                      : 'text-stone-600 hover:text-stone-950 hover:bg-white/60'
+                      ? 'bg-stone-900 text-white font-bold shadow-xs'
+                      : 'text-stone-700 hover:bg-amber-500 hover:text-white hover:font-bold hover:shadow-xs hover:scale-[1.02]'
                   }`}
                 >
                   {link.name}

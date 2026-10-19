@@ -30,7 +30,7 @@ export const TRANSLATIONS = {
     'nav.contact': 'Contact',
     'nav.whatsapp': 'WhatsApp Key Person',
     'nav.requestPDA': 'Request Port Disbursement (PDA)',
-    'nav.subTagline': 'SHIPPING AGENCY FOR ALL INDONESIA',
+    'nav.subTagline': 'SHIPPING AGENCY FOR ALL INDONESIAN PORTS',
     'nav.language': 'Language',
     'nav.switchTo': 'Beralih ke Bahasa Indonesia',
 
@@ -212,7 +212,7 @@ export const TRANSLATIONS = {
     'nav.contact': 'Kontak',
     'nav.whatsapp': 'WhatsApp Personel Kunci',
     'nav.requestPDA': 'Permintaan Estimasi Biaya (PDA)',
-    'nav.subTagline': 'SHIPPING AGENCY FOR ALL INDONESIA',
+    'nav.subTagline': 'SHIPPING AGENCY FOR ALL INDONESIAN PORTS',
     'nav.language': 'Bahasa',
     'nav.switchTo': 'Switch to English',
 
@@ -394,7 +394,7 @@ export const TRANSLATIONS = {
     'nav.contact': '联系我们',
     'nav.whatsapp': 'WhatsApp 专属对接人',
     'nav.requestPDA': '申请港口使费预算 (PDA)',
-    'nav.subTagline': 'SHIPPING AGENCY FOR ALL INDONESIA',
+    'nav.subTagline': 'SHIPPING AGENCY FOR ALL INDONESIAN PORTS',
     'nav.language': '语言',
     'nav.switchTo': '切换至中文',
 
