@@ -147,13 +147,10 @@ export const VesselsAndServices: React.FC<VesselsAndServicesProps> = ({ onOpenPD
                   key={service.code}
                   className="group p-6 sm:p-8 rounded-2xl bg-white border border-stone-200/90 hover:border-amber-500/70 transition-all duration-200 shadow-2xs hover:shadow-md hover:-translate-y-0.5"
                 >
-                  <div className="flex items-center justify-between mb-5">
+                  <div className="mb-5">
                     <div className="w-12 h-12 rounded-xl bg-amber-50 border border-amber-200 flex items-center justify-center text-amber-700 group-hover:scale-105 group-hover:bg-amber-500 group-hover:text-stone-950 transition-all duration-300">
                       <IconComponent className="w-6 h-6" />
                     </div>
-                    <span className="text-xs font-mono font-bold px-2.5 py-1 rounded-md bg-stone-100 text-stone-600 border border-stone-200 tracking-wider">
-                      {service.code}
-                    </span>
                   </div>
                   <h4 className="text-lg sm:text-xl font-bold text-stone-950 group-hover:text-amber-800 transition-colors mb-2.5">
                     {service.title}
