@@ -49,6 +49,11 @@ export const Footer: React.FC<FooterProps> = ({ onOpenPDA }) => {
                 </a>
               </li>
               <li>
+                <a href="#services" className="hover:text-amber-800 transition-colors">
+                  Port & Husbandry Services
+                </a>
+              </li>
+              <li>
                 <a href="#cargo" className="hover:text-amber-800 transition-colors">
                   PKE, Molasses & Liquid Cargo
                 </a>

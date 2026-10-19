@@ -22,7 +22,8 @@ export const TRANSLATIONS = {
   en: {
     // Navbar
     'nav.about': 'About Us',
-    'nav.vessels': 'Vessels & Services',
+    'nav.vessels': 'Vessels',
+    'nav.services': 'Services',
     'nav.cargo': 'Cargo Operations',
     'nav.performance': 'Performance',
     'nav.ports': 'Port Network',
@@ -204,7 +205,8 @@ export const TRANSLATIONS = {
   id: {
     // Navbar
     'nav.about': 'Tentang Kami',
-    'nav.vessels': 'Kapal & Layanan',
+    'nav.vessels': 'Kapal',
+    'nav.services': 'Layanan',
     'nav.cargo': 'Operasi Kargo',
     'nav.performance': 'Performa',
     'nav.ports': 'Jaringan Pelabuhan',
@@ -386,7 +388,8 @@ export const TRANSLATIONS = {
   zh: {
     // Navbar
     'nav.about': '关于我们',
-    'nav.vessels': '船型与服务',
+    'nav.vessels': '船型船队',
+    'nav.services': '港口服务',
     'nav.cargo': '货物作业',
     'nav.performance': '运营表现',
     'nav.ports': '港口网络',

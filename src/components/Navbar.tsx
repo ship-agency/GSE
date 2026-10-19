@@ -18,7 +18,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenPDA }) => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 15);
 
-      const sectionIds = ['about', 'vessels', 'cargo', 'ports', 'principals', 'contact'];
+      const sectionIds = ['about', 'vessels', 'services', 'cargo', 'ports', 'principals', 'contact'];
       const scrollPosition = window.scrollY + 180;
 
       for (let i = sectionIds.length - 1; i >= 0; i--) {
@@ -39,6 +39,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenPDA }) => {
   const navLinks = [
     { name: t('nav.about'), href: '#about' },
     { name: t('nav.vessels'), href: '#vessels' },
+    { name: t('nav.services'), href: '#services' },
     { name: t('nav.cargo'), href: '#cargo' },
     { name: t('nav.ports'), href: '#ports' },
     { name: t('nav.principals'), href: '#principals' },
@@ -79,7 +80,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenPDA }) => {
           </a>
 
           {/* Desktop Nav Links - Compact with cursor highlight */}
-          <nav className="hidden md:flex items-center gap-1 p-1 rounded-xl bg-stone-100/90 border border-stone-200/90 shadow-2xs">
+          <nav className="hidden lg:flex items-center gap-0.5 xl:gap-1 p-1 rounded-xl bg-stone-100/90 border border-stone-200/90 shadow-2xs">
             {navLinks.map((link) => {
               const sectionId = link.href.replace('#', '');
               const isActive = activeSection === sectionId;
@@ -87,7 +88,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenPDA }) => {
                 <a
                   key={link.name}
                   href={link.href}
-                  className={`px-2.5 lg:px-3 py-1.5 rounded-lg text-xs lg:text-sm font-semibold tracking-wide transition-all duration-200 whitespace-nowrap cursor-pointer ${
+                  className={`px-2 xl:px-2.5 py-1.5 rounded-lg text-xs xl:text-sm font-semibold tracking-wide transition-all duration-200 whitespace-nowrap cursor-pointer ${
                     isActive
                       ? 'bg-stone-900 text-white font-bold shadow-xs'
                       : 'text-stone-700 hover:bg-amber-500 hover:text-white hover:font-bold hover:shadow-xs hover:scale-[1.02]'
@@ -100,7 +101,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenPDA }) => {
           </nav>
 
           {/* Mobile Hamburger Button */}
-          <div className="flex items-center gap-2 md:hidden">
+          <div className="flex items-center gap-2 lg:hidden">
             <button
               type="button"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
@@ -115,7 +116,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenPDA }) => {
 
       {/* Mobile Drawer */}
       {mobileMenuOpen && (
-        <div className="md:hidden bg-white border-b border-stone-200 px-6 pt-4 pb-6 space-y-4 shadow-xl">
+        <div className="lg:hidden bg-white border-b border-stone-200 px-6 pt-4 pb-6 space-y-4 shadow-xl">
           <nav className="flex flex-col space-y-1.5">
             {navLinks.map((link) => {
               const sectionId = link.href.replace('#', '');
